@@ -32,6 +32,11 @@ main {
 .game img {
     width: calc(var(--gameWidth) / var(--iconsWidth));
     height: calc(var(--gameHeight) / var(--iconsHeight));
+    /*filter: drop-shadow(2px 0 0 white) drop-shadow(-2px 0 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -2px 0 white)*/
+    /*filter: drop-shadow(2px 0 0 black) drop-shadow(-2px 0 0 black) drop-shadow(0 2px 0 black) drop-shadow(0 -2px 0 black)*/
+    /*filter: drop-shadow(2px 0 0 red) drop-shadow(-2px 0 0 red) drop-shadow(0 2px 0 red) drop-shadow(0 -2px 0 red)*/
+    /*filter: drop-shadow(2px 0 0 blue) drop-shadow(-2px 0 0 blue) drop-shadow(0 2px 0 blue) drop-shadow(0 -2px 0 blue)*/
+
 }
 
 @media only screen and (max-width: 600px) {
