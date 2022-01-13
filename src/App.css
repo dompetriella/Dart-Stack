@@ -1,0 +1,49 @@
+:root {
+    --iconsWidth: 8;
+    --iconsHeight: 8;
+
+    --gameWidth: 40vw;
+    --gameHeight: 40vw;
+
+    --gameHeightMobile: 64vw;
+    --gameWidthMobile: 64vw;
+}
+
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+}
+
+.game {
+    margin-top: 10vh;
+    width: var(--gameWidth);
+    height: var(--gameHeight);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkcyan;
+}
+
+.game img {
+    width: calc(var(--gameWidth) / var(--iconsWidth));
+    height: calc(var(--gameHeight) / var(--iconsHeight));
+}
+
+@media only screen and (max-width: 600px) {
+    .game {
+        width: var(--gameWidthMobile);
+        height: var(--gameHeightMobile);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .game img {
+        width: calc(var(--gameWidthMobile) / var(--iconsWidth));
+        height: calc(var(--gameHeightMobile) / var(--iconsHeight));  
+    }
+}
