@@ -1,3 +1,12 @@
+(WIP)
+
+Dart Stack is a fun little Candy Crush clone using frogs, specifically colors inspired by the Dendrobatidae family (poison dart frogs!)
+
+Built using using Vite and React on Repl.it
+
+Play it here on desktop or mobile -> https://dart-stack.dompetriella.repl.co/
+
+
 ## Running React on Repl.it
 
 [React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
