@@ -12,7 +12,8 @@
 main {
   text-align: center;
   vertical-align: center;
-  line-height: 100vh
+  line-height: 100vh;
+  background: linear-gradient(45deg, rgba(0,176,144,1) 0%, rgba(0,62,204,1) 100%);
 }
 
 .app {
@@ -21,12 +22,14 @@ main {
 }
 
 .game {
-    margin-top: 10vh;
+    padding: 10vw;
+    border-radius: 30%;
+    margin-top: 2vh;
     width: var(--gameWidth);
     height: var(--gameHeight);
     display: flex;
     flex-wrap: wrap;
-    background-color: darkcyan;
+    background-color: #9ECB59;
 }
 
 .game img {
